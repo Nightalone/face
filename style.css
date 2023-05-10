@@ -1,3 +1,27 @@
-body{
-    background-color: #ccc;
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 5%;
+    background-color: blue;
+}
+
+.logo{
+    width: 146px;
+    margin-left: 45px;
+}
+
+.nav-left ul li{
+    display: inline-block;
+    list-style: none;
+}
+
+.nav-left ul li img{
+    
 }
