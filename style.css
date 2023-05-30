@@ -10,6 +10,9 @@ nav{
     justify-content: space-between;
     padding: 5px 5%;
     background-color: blue;
+    position: sticky;
+    top: 0;
+    z-index: 10;
 }
 
 .logo{
@@ -77,4 +80,52 @@ nav{
     top: 0;
     right: 0;
     border-radius: 50%;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 5%;
+}
+
+.left-sidebar{
+    flex-basis: 25%;
+    position: sticky;
+    top: 70%;
+    align-self: flex-start;
+}
+
+.right-sidebar{
+    background-color: #cbdffa;
+    flex-basis: 25%;
+    position: sticky;
+    top: 70%;
+    align-self: flex-start;
+}
+
+.main-container{
+    flex-basis: 47%;
+}
+
+.imp-links a{
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    margin-bottom: 30px;
+    color: #626262;
+    width: fit-content;
+}
+
+.imp-links a img{
+    width: 20px;
+    margin: 0 10px;
+}
+
+.imp-links a:last-child{
+    color: #1876f2;
+    margin-left: 11px;
+}
+
+.imp-links{
+    border-bottom: 1px solid #CCC;
 }
