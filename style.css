@@ -156,7 +156,7 @@ nav{
     margin-bottom: 18px;
 }
 
-.sidebar-title h4{
+.right-title h4{
     font-size: 16px;
     font-weight: 600;
 }
@@ -204,3 +204,32 @@ nav{
     font-size: 10px;
     padding: 4px 0;
 }
+
+.sidebar-ads{
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+
+.online-left{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.online-left .online img{
+    width: 40px;
+    border-radius: 50%;
+}
+
+.online-left .online{
+    width: 40px;
+    border-radius: 50%;
+    margin: 0 15px;    
+}
+
+.online-left .online::after{
+    top: unset;
+    bottom: 4px;
+}
+
